@@ -24,7 +24,7 @@ const Table = () => {
   
         tableData.push(
         <tr key = {i}>
-          <td>{element.id}</td>
+          <td>{i+1}</td>
           <td>{element.name}</td>
           <td>{element.unitPrice}</td>
           <td><input type="number" min= "0" max = "50" placeholder="Qty" onChange = {(e) => changeHandler(element.id, e)} style={{margin: "5px 5px", width: "70px"}}/></td>

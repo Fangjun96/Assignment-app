@@ -14,7 +14,7 @@ function Receipt(props) {
     parameter.options.map((element, i) => {
       array.push(
         <tr key = {i}>
-          <td>{element.id}</td>
+          <td>{i+1}</td>
           <td>{element.name}</td>
           <td>{element.unitPrice}</td>
           <td>{element.qty}</td>
