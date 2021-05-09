@@ -24,7 +24,7 @@ export default function appReducer(state = initialState, action) {
         let index = state.options.findIndex(el => el.id === action.payload.id)
         let amount = action.payload.qty * parseInt(state.options[index].unitPrice)
         const optionsRep = [...state.options]
-        optionsRep[index] = {...state.options[index], qty: action.payload.qty, amount:amount}
+        optionsRep[index] = {...state.options[index], qty: action.payload.qty, amount:amount ? amount : ""}
         return {...state, options: optionsRep, salesTotal: state.salesTotal} 
 
         }
