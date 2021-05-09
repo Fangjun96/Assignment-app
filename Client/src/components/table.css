@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+.parent {
+    display:flex;
+    margin: 10px;
+    justify-content: space-around;
+    
+}
+
+.child {
+    flex: 50%;
+    margin: 10px;
+    
+}
+
+.table1, .table2 {
+    border: 1px solid black;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    color:#000099;
+    padding: 5px;
+}
+
+.table1, .table2, th {
+    text-align: center;
+    border: 1px solid black;
+}
+
+th {
+    background-color: 	lightseagreen;
+    padding: 5px;
+}
+
+.button {
+    margin: 10px 5px;
+}
+
+
+
+
+
+
+
+@media(max-width: 600px){
+    .parent {
+        flex-direction: column;
+        
+    }
+}
+
