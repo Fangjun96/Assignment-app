@@ -1,14 +1,14 @@
-const express = require('express');
+import express from 'express'
 const router = express.Router()
-const controllers = require('../controllers')
+import {getProductById, saleSubmit} from '../controllers/productController.js'
 
 router.use(express.json())
 
-router.get('/findMatch/:id', controllers.product_findById_handler)
+router.get('/findMatch/:id', getProductById)
 
-router.post('/processSales', controllers.product_sales_handler)
+router.post('/processSales', saleSubmit)
             
-module.exports = router
+export default router
 
 
 

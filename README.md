@@ -1,16 +1,18 @@
 # Assignment-app
-Cloning: git clone https://github.com/Fangjun96/Assignment-app.git
 
-Client Side:
-Port: localhost:3000  
-Go to Client directory
-Step 1: Run "npm i" to download all node modules  
-Step 2: Run "npm start" to initialize front-end interface  
+Setup:
+Step 1: Go to root directory: Assignment-app  
+ Run "npm i" on terminal to download node modules for backend
 
-Backend side
-Port: localhost:2000  
-Go to Backend directory   
-Step 1: Run "npm i" to download all node modules  
-Step 2: Run "nodemon app.js" start the server   
+Step 2: Go to frontend directory: Assignment-app/frontend  
+ Run "npm i" on terminal to download node modules for frontend
+
+Step 3: Getting .env file from author and paste in on root directory: Assignment-app
+
+Getting App to run:
+
+- Run frontend-backend concurrenly: Run "npm run dev" on terminal
+- Run frontend: Run "npm run client" on terminal
+- Run backend: Run "npm run server" on terminal
 
 Congratz! You are now running the simple POS system on your local machine!

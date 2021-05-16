@@ -6,7 +6,6 @@ import store from './components/store'
 import Search from './components/search.js'
 import Table from './components/table.js'
 import CashRegister from './components/cashRegister'
-import reportWebVitals from './reportWebVitals';
 
 function App() {
   return (
