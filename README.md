@@ -12,8 +12,8 @@ Step 3: Getting .env file from author and paste in on root directory: Assignment
 
 Getting App to run:
 
-- Run frontend-backend concurrenly: Run "npm run dev" on terminal
-- Run frontend: Run "npm run client" on terminal
-- Run backend: Run "npm run server" on terminal
+- Frontend-backend concurrenly: Run "npm run dev" on terminal
+- Frontend: Run "npm run client" on terminal
+- Backend: Run "npm run server" on terminal
 
 Congratz! You are now running the simple POS system on your local machine!
