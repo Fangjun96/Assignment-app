@@ -1,6 +1,7 @@
 # Assignment-app
 
-Setup:
+Setup:  
+
 Step 1: Go to root directory: Assignment-app  
  Run "npm i" on terminal to download node modules for backend
 
