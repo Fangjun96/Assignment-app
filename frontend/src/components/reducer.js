@@ -48,7 +48,7 @@ export default function appReducer(state = initialState, action) {
           var changeDue = parseInt(action.payload) - state.salesTotal
           return {...state, payment: parseInt(action.payload), changeDue: changeDue}
         } else {
-            changeDue = state.payment - state.salesTotal
+            var changeDue = state.payment - state.salesTotal
             return {...state, changeDue: changeDue}
         }
 
